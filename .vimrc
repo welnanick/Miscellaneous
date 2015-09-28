@@ -30,4 +30,4 @@ set shiftwidth=4
 set smarttab
 set colorcolumn=80
 highlight OverLength ctermbg=black ctermfg=darkred guibg=#FFD9D9
-match OverLength /\%81v.\+/
+autocmd VimEnter,WinEnter * match OverLength /\%81v.\+/
