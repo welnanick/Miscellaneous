@@ -18,6 +18,7 @@ set novisualbell        " turn off visual bell
 set backspace=indent,eol,start " make that backspace key work the way it should
  
 syntax enable           " turn syntax highlighting on by default
+set t_Co=16
 set background=dark
 colorscheme solarized
 filetype on             " detect type of file
@@ -28,6 +29,6 @@ set softtabstop=4   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
 set shiftwidth=4
 set smarttab
-set colorcolumn=80
+set colorcolumn=100
 highlight OverLength ctermbg=black ctermfg=darkred guibg=#FFD9D9
-autocmd VimEnter,WinEnter * match OverLength /\%81v.\+/
+autocmd VimEnter,WinEnter * match OverLength /\%101v.\+/
