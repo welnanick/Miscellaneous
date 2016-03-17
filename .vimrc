@@ -29,6 +29,6 @@ set softtabstop=4   " number of spaces in tab when editing
 set expandtab       " tabs are spaces
 set shiftwidth=4
 set smarttab
-set colorcolumn=100
+set colorcolumn=120
 highlight OverLength ctermbg=black ctermfg=darkred guibg=#FFD9D9
-autocmd VimEnter,WinEnter * match OverLength /\%101v.\+/
+autocmd VimEnter,WinEnter * match OverLength /\%121v.\+/
