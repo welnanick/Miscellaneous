@@ -1,4 +1,4 @@
-" set scrolloff=3         " keep 3 lines when scrolling
+ set scrolloff=3         " keep 3 lines when scrolling
 set ai                  " set auto-indenting on for programming
  
 set showcmd             " display incomplete commands
